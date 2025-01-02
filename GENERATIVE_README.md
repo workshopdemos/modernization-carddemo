@@ -4,7 +4,7 @@
 
 The Code4z Assistant extension is used for this workshop. It is already installed and configured in your Code4z Assistant VS Extension.
 
-To open the Code4z Assistant view, click its icon in the activity bar:  
+To open the Code4z Assistant view, click its icon in the activity bar:
 <img src='diagrams/code4z_assistant/activity_bar_assistant_icon.png' width='36pt'/>
 
 This opens the following view:
@@ -25,16 +25,16 @@ Follow these steps:
 
     <img src='diagrams/code4z_assistant/explorer_open_cobol_program.png' style='min-width: 300pt; max-width: 600pt;'/>
 
-2. To select all code, click inside the editor, then press `⌘`+`A` on macOS or `Ctrl`+`A` on Windows.  
-    <img src='diagrams/code4z_assistant/select_all_code.png' style='min-width: 300pt; max-width: 600pt;'/>  
+2. To select all code, click inside the editor, then press `⌘`+`A` on macOS or `Ctrl`+`A` on Windows.
+    <img src='diagrams/code4z_assistant/select_all_code.png' style='min-width: 300pt; max-width: 600pt;'/>
    The selected code is displayed in a panel on the right side of the VS Code window.
-   
+
 3. In the Code4z Assistant view, Type `Explain` and press Enter.
     <img src='diagrams/code4z_assistant/chat_explain.png' style='min-width: 200pt; max-width: 400pt;' />
-   Code4z Assistant provides an explanation of the selected code in English.  
+   Code4z Assistant provides an explanation of the selected code in English.
     <img src='diagrams/code4z_assistant/explain_result.png' style='min-width: 200pt; max-width: 400pt;' />
 
-4. Ask follow-up questions as required. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press  `⌘`+`L` on macOS or `Ctrl`+`L` on Windows.  
+4. Ask follow-up questions as required. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press  `⌘`+`L` on macOS or `Ctrl`+`L` on Windows.
 
     <img src='diagrams/code4z_assistant/explain_snippet.png' style='min-width: 300pt; max-width: 600pt;'/>
 
