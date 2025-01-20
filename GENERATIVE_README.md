@@ -48,7 +48,37 @@ Please share your feedback for Scenario 1:
 - Was the information provided accurate and useful?
 - What parts of the code would you use the explanation on?
 
-## Scenario 2: Asking High-Level Questions about the Codebase
+## Scenario 2: Codebase and Folder Explanation
+
+When working with a large codebase, understanding the purpose of each module is crucial. This can be particularly challenging in applications that are extensive or lack up-to-date documentation.
+
+The *Code4z Assistant* simplifies this process by generating detailed explanations for each module in the application. 
+
+Follow these steps to leverage this feature:
+
+1. Open the *Code4z Assistant* view.
+
+2. In the chat box, type `/` and select the `/explain` command.
+
+    <img src='diagrams/code4z_assistant/action_explain.png' alt="Action menu with Explain selected" style='min-width: 300pt; max-width: 400pt;'/>
+
+3. Then type `@` and select `Codebase` from the context menu.
+
+    <img src='diagrams/code4z_assistant/context_codebase.png' alt="Context menu with Codebase selected" style='min-width: 300pt; max-width: 400pt;'/>
+
+    *Note:* Alternatively, you can choose the Folder option to focus on a specific folder for a detailed explanation.
+
+4. Press `Enter` to initiate the explanation process. Note that while this may take longer than explaining a single code snippet, much of the groundwork has already been done during code indexing.
+
+5. The output will appear in the chat window, providing a high-level overview of each folder and detailed explanations of individual modules.
+
+We value your input and would love to hear your thoughts on this content!
+
+- Does the content provide the clarity and guidance you need?
+- Are there any sections that could be improved or made more useful?
+- Do you have additional suggestions or ideas to enhance the experience?
+
+## Scenario 3: Asking High-Level Questions about the Codebase
 
 Code4z Assistant indexes your codebase, enabling it to automatically retrieve the most relevant context from across your workspace when you ask a question.
 

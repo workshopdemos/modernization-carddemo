@@ -1,3 +1,12 @@
+# Code4z Assistant - Workshop Scenarios
+
+This repository hosts the original code for the *Mainframe CardDemo Application*, available on [GitHub](https://github.com/aws-samples/aws-mainframe-modernization-carddemo). This application serves as an example of a mainframe system, 
+designed and developed to represent a typical legacy application.
+
+The repository demonstrates how the *Code4z Assistant* can assist in analyzing and understanding existing mainframe application code.
+
+To explore its capabilities and learn more, refer to the [Workshop Scenarios](GENERATIVE_README.md).
+
 ## CardDemo -- Mainframe CardDemo Application
 
 - [CardDemo -- Mainframe CardDemo Application](#carddemo----mainframe-card-demo-application)
