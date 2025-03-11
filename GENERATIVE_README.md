@@ -25,19 +25,13 @@ Follow these steps:
 
     <img src='diagrams/code4z_assistant/explorer_open_cobol_program.png' alt="COBOL program" style='min-width: 300pt; max-width: 600pt;'/>
 
-2. To select all code, click inside the editor, then press `⌘`+`A` on macOS or `Ctrl`+`A` on Windows.
+2. To explain the entire program, right-click on the program and choose **Code4z Assistant** / **Explain This**.
 
-    <img src='diagrams/code4z_assistant/select_all_code.png' alt="Select all code" style='min-width: 300pt; max-width: 600pt;'/>
+    <img src='diagrams/code4z_assistant/explorer_explain_program.png' alt="Explain program" style='min-width: 300pt; max-width: 600pt;'/>
 
-   The selected code is displayed in a panel on the right side of the VS Code window.
-
-3. In the Code4z Assistant view, Type `Explain` and press Enter.
+3. The Code4z Assistant view is opened and the explanation is displayed in the chat box.
 
     <img src='diagrams/code4z_assistant/chat_explain.png' alt="Explain in chat" style='min-width: 200pt; max-width: 400pt;' />
-
-   Code4z Assistant provides an explanation of the selected code in English.
-
-    <img src='diagrams/code4z_assistant/explain_result.png' alt="Result of the explain" style='min-width: 200pt; max-width: 400pt;' />
 
 4. Ask follow-up questions as required. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press  `⌘`+`L` on macOS or `Ctrl`+`L` on Windows.
 
@@ -50,27 +44,25 @@ Please share your feedback for Scenario 1:
 
 ## Scenario 2: Codebase and Folder Explanation
 
-When working with a large codebase, understanding the purpose of each module is crucial. This can be particularly challenging in applications that are extensive or lack up-to-date documentation.
+When you work with a large codebase, understanding the purpose of each module is crucial. This can be particularly challenging in applications that are extensive or lack up-to-date documentation.
 
-The *Code4z Assistant* simplifies this process by generating detailed explanations for each module in the application. 
+The Code4z Assistant simplifies this process by generating detailed explanations for each module in the application.
 
 Follow these steps to leverage this feature:
 
-1. Open the *Code4z Assistant* view.
+1. Open the **Code4z Assistant** view.
 
 2. In the chat box, type `/` and select the `/explain` command.
 
     <img src='diagrams/code4z_assistant/action_explain.png' alt="Action menu with Explain selected" style='min-width: 300pt; max-width: 400pt;'/>
 
-3. Then type `@` and select `Codebase` from the context menu.
+3. Then type `@` and select `Codebase` from the context menu, and press Enter.
 
     <img src='diagrams/code4z_assistant/context_codebase.png' alt="Context menu with Codebase selected" style='min-width: 300pt; max-width: 400pt;'/>
 
-    *Note:* Alternatively, you can choose the Folder option to focus on a specific folder for a detailed explanation.
+    *Note:* Alternatively, you can choose the `Folder` option to focus on a specific folder for a detailed explanation.
 
-4. Press `Enter` to initiate the explanation process. Note that while this may take longer than explaining a single code snippet, much of the groundwork has already been done during code indexing.
-
-5. The output will appear in the chat window, providing a high-level overview of each folder and detailed explanations of individual modules.
+4. The output appears in the chat window, providing a high-level overview of each folder and detailed explanations of individual modules.
 
 We value your input and would love to hear your thoughts on this content!
 
@@ -80,28 +72,23 @@ We value your input and would love to hear your thoughts on this content!
 
 ## Scenario 3: Asking High-Level Questions about the Codebase
 
-Code4z Assistant indexes your codebase, enabling it to automatically retrieve the most relevant context from across your workspace when you ask a question.
+Code4z Assistant indexes your codebase so that it automatically retrieves the most relevant context from across your workspace when you ask a question.
 
 This retrieval is powered by an embeddings-based approach, which identifies and pulls in the specific parts of your code or documentation relevant to your English-language query.
 
-Ideal for high-level questions about your codebase:
+Good examples of high-level questions about your codebase include:
 
 - “How are credit cards listed?”
 - “What is the SQL query to update the …?”
 - “Does this application use …?”
 
-Not ideal for exhaustive file analysis:
-
-- “Find every instance where the XYZ module is called.”
-- “Review the entire codebase for spelling mistakes.”
-
-Follow these steps:
+Follow these steps to ask high-level questions about your codebase:
 
 1. Open the Code4z Assistant view.
 
 2. Enter your question into the chat box.
 
-3. Click the *@codebase* link below the input box or use a keyboard shortcut `⌘`+`Enter` on macOS or `Ctrl`+`Enter` on Windows.
+3. Click the *@codebase* link below the input box or use the keyboard shortcut **⌘+Enter** on macOS or **CTRL+Enter** on Windows.
 
     <img src='diagrams/code4z_assistant/code_base_question.png' alt="Question about codebase" style='min-width: 300pt; max-width: 500pt;'/>
 
@@ -113,8 +100,8 @@ We’d love your input on the following:
 
 ## Troubleshooting Tips
 
-If you notice that progress has stalled in VS Code, try refreshing the window:
+If progress stalls in VS Code, try refreshing the window:
 
-1. Press F1 to open the **Command Palette**
-2. In the Command Palette, type `Reload Window` and press Enter.
+1. Press **F1** to open the Command Palette
+2. Type **Reload Window** and press Enter.
    The VS Code window reloads.
