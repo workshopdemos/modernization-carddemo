@@ -1,0 +1,15 @@
+.vscode
+diagrams/
+app/bms/
+app/catlg/
+app/csd/
+app/ctl/
+app/data/
+app/jcl/
+app/proc/
+samples/
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+GENERATIVE_README.md
+LICENSE
+NOTICE
