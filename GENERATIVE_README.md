@@ -21,7 +21,7 @@ You can explain sections of a program or entire programs.
 
 Follow these steps:
 
-1. Select a COBOL program from the Explorer view. For example, navigate to: `MODERNIZATION-CARDDEMO` / `app` / `CBACT01C.cbl`.
+1. Select a COBOL program from the Explorer view. For example, navigate to: `MODERNIZATION-CARDDEMO` / `app` / [`CBACT01C.cbl`](/app/CBACT01C.cbl).
 
     <img src='diagrams/code4z_assistant/explorer_open_cobol_program.png' alt="COBOL program" style='min-width: 300pt; max-width: 600pt;'/>
 
@@ -33,7 +33,7 @@ Follow these steps:
 
     <img src='diagrams/code4z_assistant/chat_explain.png' alt="Explain in chat" style='min-width: 200pt; max-width: 400pt;' />
 
-4. Ask follow-up questions as required. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press  `⌘`+`L` on macOS or `Ctrl`+`L` on Windows.
+4. Ask follow-up questions as required. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press <kbd>⌘/Ctrl</kbd> + <kbd>L</kbd>.
 
     <img src='diagrams/code4z_assistant/explain_snippet.png' alt="Explain a snippet of the code" style='min-width: 300pt; max-width: 600pt;'/>
 
@@ -56,7 +56,7 @@ Follow these steps to leverage this feature:
 
     <img src='diagrams/code4z_assistant/action_explain.png' alt="Action menu with Explain selected" style='min-width: 300pt; max-width: 400pt;'/>
 
-3. Then type `@` and select `Codebase` from the context menu, and press Enter.
+3. Then type `@` and select `Codebase` from the context menu, and press <kbd>Enter</kbd>.
 
     <img src='diagrams/code4z_assistant/context_codebase.png' alt="Context menu with Codebase selected" style='min-width: 300pt; max-width: 400pt;'/>
 
@@ -88,7 +88,7 @@ Follow these steps to ask high-level questions about your codebase:
 
 2. Enter your question into the chat box.
 
-3. Click the *@codebase* link below the input box or use the keyboard shortcut **⌘+Enter** on macOS or **CTRL+Enter** on Windows.
+3. Click the **Use @codebase** link below the input box or press <kbd>⌘/Ctrl</kbd> + <kbd>Enter</kbd>.
 
     <img src='diagrams/code4z_assistant/code_base_question.png' alt="Question about codebase" style='min-width: 300pt; max-width: 500pt;'/>
 
@@ -98,10 +98,34 @@ We’d love your input on the following:
 - Was there a better way to provide context for your question?
 - What specific questions about the codebase do you need help answering?
 
+## Scenario 4: Test Recommendations
+
+<!--
+The workshop environment has `/test` command enabled by the following configuration:
+
+  "customCommands": [
+    {
+      "name": "test",
+      "prompt": "Suggest a set of test cases in English to test following mainframe COBOL code: {{{input}}}",
+      "description": "Suggest test cases"
+    }
+  ]
+-->
+
+Code4z Assistant can provide recommendations for testing your code. Although it does not generate fully automated tests, it can help you identify new test cases.
+
+1. Open the Code4z Assistant view.
+
+2. Enter `/test` into the chat box and then press `@` and type of you module.
+
+3. Press <kbd>Enter</kbd> to submit the question.
+
+    <img src='diagrams/code4z_assistant/test_recommendations.png' alt="Question about codebase" style='min-width: 300pt; max-width: 500pt;'/>
+
 ## Troubleshooting Tips
 
 If progress stalls in VS Code, try refreshing the window:
 
-1. Press **F1** to open the Command Palette
+1. Press <kbd>F1</kbd> to open the Command Palette
 2. Type **Reload Window** and press Enter.
    The VS Code window reloads.
