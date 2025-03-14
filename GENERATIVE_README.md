@@ -25,7 +25,7 @@ Follow these steps:
 
     <img src='diagrams/code4z_assistant/explorer_open_cobol_program.png' alt="COBOL program" style='min-width: 300pt; max-width: 600pt;'/>
 
-2. To explain the entire program, right-click on the program and choose **Code4z Assistant** / **Explain This**.
+2. To explain the entire program, right-click in the edit window and choose **Code4z Assistant** / **Explain This File**.
 
     <img src='diagrams/code4z_assistant/explorer_explain_program.png' alt="Explain program" style='min-width: 300pt; max-width: 600pt;'/>
 
@@ -116,11 +116,15 @@ Code4z Assistant can provide recommendations for testing your code. Although it 
 
 1. Open the Code4z Assistant view.
 
-2. Enter `/test` into the chat box and then press `@` and type of you module.
+2. Enter `/test` into the chat box, then enter `@` and type the name of your module.
 
 3. Press <kbd>Enter</kbd> to submit the question.
 
     <img src='diagrams/code4z_assistant/test_recommendations.png' alt="Question about codebase" style='min-width: 300pt; max-width: 500pt;'/>
+
+## View Chat History
+
+To view your chat history, open the **View History** window. Chat history transcripts are also saved in JSON format in /.code4z-assistant/sessions in your user home folder.
 
 ## Troubleshooting Tips
 
