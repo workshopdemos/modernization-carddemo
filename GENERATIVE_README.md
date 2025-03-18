@@ -3,7 +3,7 @@
 
 ## Initial Setup
 
-The Code4z Assistant extension is used for this workshop. It is already installed and configured in your Code4z Assistant VS Extension.
+The Code4z Assistant extension is used for this workshop. It is already installed and configured in this workshop environment.
 
 To open the Code4z Assistant view, click its icon in the activity bar:<br/>
 <img src='diagrams/code4z_assistant/activity_bar_assistant_icon.png' alt="Code4z Assistant icon" width='36pt'/>
