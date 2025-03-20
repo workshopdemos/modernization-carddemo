@@ -21,19 +21,27 @@ You can explain sections of a program or entire programs.
 
 Follow these steps:
 
-1. Select a COBOL program from the Explorer view. For example, navigate to: `MODERNIZATION-CARDDEMO` / `app` / [`CBACT01C.cbl`](/app/CBACT01C.cbl).
+1. Go back to the **Explorer view** in VS Code. Click on the following icon in the activity bar on the left side to show the Explorer view if it is not already open:
+
+    <img src='diagrams/code4z_assistant/explorer_icon.png' alt="Code4z Assistant icon" width='36pt'/>
+
+2. Select a COBOL program from the Explorer view. For example, navigate to: `MODERNIZATION-CARDDEMO` / `app` / `cbl` / [`CBACT01C.cbl`](/app/cbl/CBACT01C.cbl).
 
     <img src='diagrams/code4z_assistant/explorer_open_cobol_program.png' alt="COBOL program" style='min-width: 300pt; max-width: 600pt;'/>
 
-2. To explain the entire program, right-click in the edit window and choose **Code4z Assistant** / **Explain This File**.
+3. To explain the entire program, right-click in the edit window and choose **Code4z Assistant** / **Explain This File**.
 
     <img src='diagrams/code4z_assistant/explorer_explain_program.png' alt="Explain program" style='min-width: 300pt; max-width: 600pt;'/>
 
-3. The Code4z Assistant view is opened and the explanation is displayed in the chat box.
+4. The Code4z Assistant view is opened and the explanation is displayed in the chat box.
 
     <img src='diagrams/code4z_assistant/chat_explain.png' alt="Explain in chat" style='min-width: 200pt; max-width: 400pt;' />
 
-4. Ask follow-up questions as required. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press <kbd>⌘/Ctrl</kbd> + <kbd>L</kbd>.
+5. Ask follow-up questions as required. You can enter them in the chat box at the bottom of the Code4z Assistant view.
+
+    <img src='diagrams/code4z_assistant/follow_up_question.png' alt="Follow up question" style='min-width: 200pt; max-width: 300pt;' />
+
+6. You can also select a specific part of the code and repeat the explanation process to focus on that part. To add the selected code to the chat, press <kbd>⌘/Ctrl</kbd> + <kbd>L</kbd>.
 
     <img src='diagrams/code4z_assistant/explain_snippet.png' alt="Explain a snippet of the code" style='min-width: 300pt; max-width: 600pt;'/>
 
@@ -50,7 +58,9 @@ The Code4z Assistant simplifies this process by generating detailed explanations
 
 Follow these steps to leverage this feature:
 
-1. Open the **Code4z Assistant** view.
+1. Open the **Code4z Assistant** view and start a new chat session by clicking on the `+` icon at the of the view.
+
+    <img src='diagrams/code4z_assistant/new_session.png' alt="New session" style='min-width: 200pt; max-width: 300pt;' />
 
 2. In the chat box, type `/` and select the `/explain` command.
 
@@ -63,6 +73,8 @@ Follow these steps to leverage this feature:
     *Note:* Alternatively, you can choose the `Folder` option to focus on a specific folder for a detailed explanation.
 
 4. The output appears in the chat window, providing a high-level overview of each folder and detailed explanations of individual modules.
+
+    <img src='diagrams/code4z_assistant/explain_codebase.png' alt="Explain codebase" style='min-width: 300pt; max-width: 400pt;'/>
 
 We value your input and would love to hear your thoughts on this content!
 
@@ -84,7 +96,7 @@ Good examples of high-level questions about your codebase include:
 
 Follow these steps to ask high-level questions about your codebase:
 
-1. Open the Code4z Assistant view.
+1. Open the **Code4z Assistant** view and start a new chat session by clicking on the `+` icon at the of the view.
 
 2. Enter your question into the chat box.
 
@@ -114,7 +126,7 @@ The workshop environment has `/test` command enabled by the following configurat
 
 Code4z Assistant can provide recommendations for testing your code. Although it does not generate fully automated tests, it can help you identify new test cases.
 
-1. Open the Code4z Assistant view.
+1. Open the **Code4z Assistant** view and start a new chat session by clicking on the `+` icon at the of the view.
 
 2. Enter `/test` into the chat box, then enter `@` and type the name of your module.
 
